@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang = "en" class="no-js">
+<head>
+    <!-- Metadata -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jeremy Xue">
+    <meta name="keywords" content="Big Skinny">
+    <meta name="description" content="Big Skinny Term Project Website">
+
+    <title>Big Skinny</title>
+
+    <!-- Stylesheets here -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+
+    <!-- Javascript here -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js" ></script>
+    <script src="js/modernizr.js"></script>
+    <script>
+        $(function() {
+            $( "#accordion" ).accordion();
+        });
+    </script>
+
+
+</head>
+
+<body>
+    <header class="cd-header">
+        <div id="cd-logo"><a href="index.html"><img src="images/logos/translogo.png" alt="Logo" height="40", width="80"></a></div>
+
+        <nav class="cd-primary-nav">
+            <ul>
+                <li><a class="selected" href="index.html">Home</a></li>
+                <li><a href="mens.html">Men's Wallets</a></li>
+                <li><a href="womens.html">Women's Wallets</a></li>
+            </ul>
+        </nav> <!-- Navigation bar -->
+    </header>
+
+    <section class="cd-hero">
+        <ul class="cd-hero-slider autoplay">
+            <li class="selected cd-bg-video">
+                <div class="cd-full-width">
+                    <a href="https://www.youtube.com/watch?v=SPWDU9QoC4c" target="_blank" class="cd-vidbtn">Watch the video</a>
+                </div> <!-- Play video in background (muted) -->
+
+                <div class="cd-bg-video-wrapper" data-video="images/video/video">
+                    <!-- Wrap video -->
+                </div>
+            </li>
+
+            <li>
+                <div class="cd-half-width cd-img-container">
+                    <img src="images/wallet_comparison.png" alt="comparison">
+                </div>
+                <div class="cd-half-width">
+                    <h2>How do we get our wallets so skinny?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta suscipit lacus, et hendrerit felis varius vitae. Pellentesque a nulla dapibus, interdum diam a, pretium metus. Fusce risus ipsum, lacinia in sagittis in, bibendum eu odio. Morbi eu lectus at dui convallis ultrices at ut metus. Sed ornare velit quis sapien porttitor cursus.</p>
+                    <a href="http://www.bigskinny.net/how.html" target="_blank" class="cd-btn">Read more</a>
+                </div>
+            </li>
+            <li>
+                <div class="cd-half-width cd-img-container">
+                    <a href="https://lib.store.yahoo.net/lib/yhst-94975210642937/CopyofEventSheet20174.25.pdf" target="_blank"><img src="images/showsched.png" alt="sched" height ="500" width ="500">
+                </div>
+                <div class="cd-half-width">
+                    <h2>Come find us at a show near you!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta suscipit lacus, et hendrerit felis varius vitae. Pellentesque a nulla dapibus, interdum diam a, pretium metus. Fusce risus ipsum, lacinia in sagittis in, bibendum eu odio. Morbi eu lectus at dui convallis ultrices at ut metus. Sed ornare velit quis sapien porttitor cursus.</p>
+                    <a href="mailto:lianne.deal@bigskinny.net" target="_blank" class="cd-btn">Interested in being a vendor?</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="cd-half-width cd-img-container">
+                    <img src="images/wheel.png" alt="comparison" width="500" height="500">
+                </div>
+                <div class="cd-half-width">
+                    <h2>Subscribe for a chance to win a discount!</h2>
+                    <form onsubmit="return validate()" enctype="text/plain" method="post" action="">
+                      
+                      <fieldset>
+                          <label for="email">Please provide your email address:</label><br/>
+                          <input type="email" id="email" name="email" value="" Placeholder = "abc@defg.com" required ><br/><br/>
+                          <a href="" target="_blank" value="submit" class="cd-btn">Subscribe!</a>
+                      </fieldset>
+                      </form>
+                </div>
+            </li>
+
+
+        </ul> <!-- Hero Slider -->
+
+        <div class="cd-slider-nav">
+            <nav>
+                <span class="cd-marker item-1"></span>
+                <ul>
+                    <li class="selected"><a href="#0">Video</a></li>
+                    <li><a href="#0">How we do it</a></li>
+                     <li><a href="#0">Shows</a></li>
+                     <li><a href="#0">Subscribe</a></li>
+                </ul>
+            </nav> 
+        </div> <!-- .cd-slider-nav -->
+    </section> <!-- .cd-hero -->
+
+    <!-- About -->
+    <main class="cd-main-content">
+  
+    </main> <!-- .cd-main-content -->
+    
+    <footer>
+        <hr/>
+        &copy; Made by Jeremy Xue, John Park, John Kim, and Matt Liu for 67-250 Information Systems Milieux<br/>
+        <!-- Anchor tags can take you to pages outside the site, within the site or within the page. -->
+    </footer>
+
+</body>
+</html>
+
+
